@@ -28,6 +28,13 @@ class GestorConfiguracion:
         except FileNotFoundError:
             print("Aviso: Archivo de configuración ausente. Cargando valores por defecto.")
             return self.configuracion_por_defecto.copy()
+        except json.JSONDecodeError:
+            print("Aviso: Archivo de configuración corrupto o con formato inválido. Cargando valores por defecto.")
+            return self.configuracion_por_defecto.copy()
+            
+        except PermissionError:
+            print("Error: Falta de permisos de lectura. Cargando valores por defecto.")
+            return self.configuracion_por_defecto.copy()
             
         except Exception as e:
             print(f"Error al leer: {e}. Cargando valores por defecto.")

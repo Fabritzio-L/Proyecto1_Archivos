@@ -1,9 +1,9 @@
 {
-    "nombre_usuario": "Usuario 1",
+    "nombre_usuario": "Usuario 2",
     "tema": "oscuro",
     "idioma": "en/en-US",
-    "tamano_fuente": 14,
-    "color_menu": "#00ff00",
-    "color_letra": "#ffffff",
-    "ruta_foto": "C:/Users/fabri/OneDrive/Imágenes/134173629666461151.jpg"
+    "tamano_fuente": 10,
+    "color_menu": "#ff0000",
+    "color_letra": "#000000",
+    "ruta_foto": "C:/Users/fabri/OneDrive/Imágenes/Saved Pictures/44-448127_universe-wallpaper-4k.jpg"
 }
